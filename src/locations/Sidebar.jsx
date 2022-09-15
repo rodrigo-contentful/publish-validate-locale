@@ -128,7 +128,7 @@ const Sidebar = () => {
 
     sdk.user.teamMemberships.forEach((teamMembership) => {
       // check each one of the rules
-      //teamMembership.sys.team.sys.id
+      
       teamRules.forEach((teamRule) => {
         // comparing team id with team rule id
         if (teamMembership.sys.team.sys.id === teamRule.id) {
