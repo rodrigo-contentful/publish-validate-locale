@@ -47,7 +47,8 @@ Both functionalities use the same logic on required locales per field.
 
 ### Functionality per 'Teams'
 
-This is accomplished by a JSON variable containing the next restructure:
+* This is accomplished by a JSON variable containing the team name, teamID as the next example
+* The space needs to have the same teams setup.
 
 ```json
  /**
@@ -69,7 +70,8 @@ This is accomplished by a JSON variable containing the next restructure:
 
 ### Functionality per 'Tag'
 
-This is accomplished by a JSON variable containing the next restructure:
+* This is accomplished by a JSON variable containing the tag name as the next example
+* The space needs to have the Tag setup with the same name as the tagRules.
 
 ```json
   /**
