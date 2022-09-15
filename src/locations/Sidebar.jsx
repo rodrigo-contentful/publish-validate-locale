@@ -126,63 +126,6 @@ const Sidebar = () => {
       },
     ];
 
-    // [
-    //   {
-    //       "admin": false,
-    //       "sys": {
-    //           "type": "TeamMembership",
-    //           "id": "0Qo70WuMmdtR9PS9oNvG3o",
-    //           "version": 0,
-    //           "team": {
-    //               "sys": {
-    //                   "type": "Link",
-    //                   "linkType": "Team",
-    //                   "id": "5ZwS2JEJjEL1qatjVJl81Y"
-    //               }
-    //           },
-    //           "organization": {
-    //               "sys": {
-    //                   "type": "Link",
-    //                   "linkType": "Organization",
-    //                   "id": "2CKrUXflqGC6iamnTgtYBu"
-    //               }
-    //           },
-    //           "createdBy": {
-    //               "sys": {
-    //                   "type": "Link",
-    //                   "linkType": "User",
-    //                   "id": "2CybV4O3C7PvLzsqBI2qcs"
-    //               }
-    //           },
-    //           "createdAt": "2022-09-12T07:54:52Z",
-    //           "updatedBy": {
-    //               "sys": {
-    //                   "type": "Link",
-    //                   "linkType": "User",
-    //                   "id": "2CybV4O3C7PvLzsqBI2qcs"
-    //               }
-    //           },
-    //           "updatedAt": "2022-09-12T07:54:52Z",
-    //           "organizationMembership": {
-    //               "sys": {
-    //                   "type": "Link",
-    //                   "linkType": "OrganizationMembership",
-    //                   "id": "61AXKr59JawbNVM2wMZ5Pu"
-    //               }
-    //           },
-    //           "user": {
-    //               "sys": {
-    //                   "type": "Link",
-    //                   "linkType": "User",
-    //                   "id": "3lypMkmZdY6ZUbBTZMoXkS"
-    //               }
-    //           }
-    //       }
-    //   }
-    // ]
-
-    // debugger
-    // console.log(sdk.user.teamMemberships)
     sdk.user.teamMemberships.forEach((teamMembership) => {
       // check each one of the rules
       //teamMembership.sys.team.sys.id
