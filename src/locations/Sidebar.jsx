@@ -92,6 +92,7 @@ const Sidebar = () => {
       .catch(console.error);
   };
 
+  // disabled function in the app ()
   let publishEntry = async () => {
     await cma
       .getSpace(sdk.ids.space)
