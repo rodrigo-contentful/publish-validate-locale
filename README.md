@@ -1,4 +1,4 @@
-# Demo publish button
+# Demo: publish button to validate localized fields
 
 NOTE: 
 * This code includes a demo publish button, with a focus on adding a set of localization rules per field.
